@@ -6,7 +6,7 @@ import '../src/tables/userTable';
 import '../src/tables/userFollowTable';
 
 async function syncDB() {
-  const connection = await r.connect();
+  const connection = await getConnection({ db: null });
   r.branch(
     r.dbList().contains(RETHINKDB.DB).not(),
     r.dbCreate(RETHINKDB.DB),
@@ -26,4 +26,4 @@ syncDB()
 .catch(e => {
   console.log(e.stack);
 })
-.then(() => process.exit())
+.then(() => process.exit());

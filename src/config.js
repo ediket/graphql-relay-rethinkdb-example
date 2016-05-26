@@ -6,6 +6,7 @@ const CONFIG = {
     PORT: 28015,
     DB: 'example',
     TIMEOUT: 10,
+    AUTHKEY: null,
   },
 };
 
