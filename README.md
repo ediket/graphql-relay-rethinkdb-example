@@ -1,5 +1,18 @@
 # GraphQL-Relay-Rethinkdb-Example
 
+Example Implementation of [GraphQL](http://facebook.github.io/graphql/) & [Relay](https://facebook.github.io/relay/) server.
+
+Used libraries:
+
+- [graphql-js](https://github.com/graphql/graphql-js)
+- [graphql-relay-js](https://github.com/graphql/graphql-relay-js)
+- [express](https://github.com/expressjs/express)
+- [express-graphql](https://github.com/graphql/express-graphql)
+- [rethinkdb](https://github.com/rethinkdb/rethinkdb)
+- [rethinkdb-pool](https://github.com/hden/rethinkdb-pool)
+- [nothinkdb](https://github.com/ediket/nothinkdb)
+- [nothinkdb-graphql](https://github.com/ediket/nothinkdb-graphql)
+
 # Setup
 
 ```
