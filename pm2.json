@@ -1,0 +1,10 @@
+{
+  "name": "graphql-relay-rethinkdb-example",
+  "script": "./bin/start.js",
+  "watch": ["lib", "bin"],
+  "ignore_watch": [
+    ".git",
+    "node_modules",
+    "rethinkdb_data"
+  ]
+}
